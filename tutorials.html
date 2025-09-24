@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorials - FarmConnect</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-seedling"></i>
+                <span>FarmConnect</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="index.html#services" class="nav-link">Services</a></li>
+                <li><a href="tutorials.html" class="nav-link active">Tutorials</a></li>
+                <li><a href="index.html#resources" class="nav-link">Resources</a></li>
+                <li><a href="index.html#connect" class="nav-link">Connect</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Farming Tutorials</h1>
+            <p>Learn modern farming techniques through our comprehensive step-by-step tutorials</p>
+        </div>
+    </section>
+
+    <!-- Tutorials Categories -->
+    <section class="tutorials-categories">
+        <div class="container">
+            <h2>Tutorial Categories</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="beginner">
+                    <i class="fas fa-seedling"></i>
+                    <h3>Beginner Basics</h3>
+                    <p>Essential knowledge for new farmers</p>
+                    <span class="tutorial-count">12 Tutorials</span>
+                </div>
+                <div class="category-card" data-category="crops">
+                    <i class="fas fa-wheat-awn"></i>
+                    <h3>Crop Management</h3>
+                    <p>Planting, growing, and harvesting techniques</p>
+                    <span class="tutorial-count">18 Tutorials</span>
+                </div>
+                <div class="category-card" data-category="technology">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Farm Technology</h3>
+                    <p>Modern tools and digital solutions</p>
+                    <span class="tutorial-count">15 Tutorials</span>
+                </div>
+                <div class="category-card" data-category="sustainability">
+                    <i class="fas fa-leaf"></i>
+                    <h3>Sustainable Farming</h3>
+                    <p>Eco-friendly and organic practices</p>
+                    <span class="tutorial-count">10 Tutorials</span>
+                </div>
+                <div class="category-card" data-category="livestock">
+                    <i class="fas fa-horse"></i>
+                    <h3>Livestock Care</h3>
+                    <p>Animal husbandry and management</p>
+                    <span class="tutorial-count">14 Tutorials</span>
+                </div>
+                <div class="category-card" data-category="business">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Farm Business</h3>
+                    <p>Financial planning and marketing</p>
+                    <span class="tutorial-count">8 Tutorials</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tutorials -->
+    <section class="featured-tutorials">
+        <div class="container">
+            <h2>Featured Tutorials</h2>
+            <div class="tutorials-grid">
+                <div class="tutorial-card" data-category="beginner">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/4CAF50/ffffff?text=Soil+Preparation" alt="Soil Preparation">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>15 min</span>
+                        </div>
+                        <div class="tutorial-level">Beginner</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Soil Preparation Basics</h3>
+                        <p>Learn how to prepare your soil for optimal crop growth, including testing, composting, and tilling techniques.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Dr. Sarah Johnson
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.8 (245 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+
+                <div class="tutorial-card" data-category="crops">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/2196F3/ffffff?text=Crop+Rotation" alt="Crop Rotation">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>25 min</span>
+                        </div>
+                        <div class="tutorial-level">Intermediate</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Crop Rotation Strategies</h3>
+                        <p>Master the art of crop rotation to improve soil health, reduce pests, and maximize yields year after year.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Prof. Mike Chen
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.9 (189 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+
+                <div class="tutorial-card" data-category="technology">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/FF9800/ffffff?text=Smart+Irrigation" alt="Smart Irrigation">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>30 min</span>
+                        </div>
+                        <div class="tutorial-level">Advanced</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Smart Irrigation Systems</h3>
+                        <p>Set up automated irrigation systems using sensors and IoT technology to optimize water usage and crop health.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Alex Rodriguez
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.7 (156 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+
+                <div class="tutorial-card" data-category="sustainability">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/8BC34A/ffffff?text=Composting" alt="Composting">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>20 min</span>
+                        </div>
+                        <div class="tutorial-level">Beginner</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Organic Composting Methods</h3>
+                        <p>Create nutrient-rich compost from farm waste and organic materials to improve soil fertility naturally.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Emma Green
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.6 (203 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+
+                <div class="tutorial-card" data-category="livestock">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/9C27B0/ffffff?text=Poultry+Care" alt="Poultry Care">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>35 min</span>
+                        </div>
+                        <div class="tutorial-level">Intermediate</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Poultry Farm Management</h3>
+                        <p>Complete guide to raising healthy chickens, from housing and feeding to disease prevention and egg production.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Dr. James Wilson
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.8 (167 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+
+                <div class="tutorial-card" data-category="business">
+                    <div class="tutorial-image">
+                        <img src="https://via.placeholder.com/400x250/F44336/ffffff?text=Farm+Marketing" alt="Farm Marketing">
+                        <div class="tutorial-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>40 min</span>
+                        </div>
+                        <div class="tutorial-level">Intermediate</div>
+                    </div>
+                    <div class="tutorial-content">
+                        <h3>Direct-to-Consumer Marketing</h3>
+                        <p>Learn effective strategies to market your farm products directly to consumers through farmers markets and online sales.</p>
+                        <div class="tutorial-meta">
+                            <span class="tutorial-author">
+                                <i class="fas fa-user"></i>
+                                Lisa Martinez
+                            </span>
+                            <span class="tutorial-rating">
+                                <i class="fas fa-star"></i>
+                                4.5 (134 reviews)
+                            </span>
+                        </div>
+                        <button class="btn btn-primary">Start Tutorial</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorial Series -->
+    <section class="tutorial-series">
+        <div class="container">
+            <h2>Complete Tutorial Series</h2>
+            <div class="series-grid">
+                <div class="series-card">
+                    <div class="series-header">
+                        <h3>From Seed to Harvest</h3>
+                        <span class="series-badge">8-Part Series</span>
+                    </div>
+                    <p>Complete journey of growing vegetables from planting seeds to harvesting and storage.</p>
+                    <div class="series-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span>0/8 Complete</span>
+                    </div>
+                    <div class="series-lessons">
+                        <div class="lesson-item">
+                            <i class="fas fa-play-circle"></i>
+                            <span>1. Selecting the Right Seeds</span>
+                            <span class="lesson-duration">12 min</span>
+                        </div>
+                        <div class="lesson-item">
+                            <i class="fas fa-lock"></i>
+                            <span>2. Soil Preparation and Testing</span>
+                            <span class="lesson-duration">15 min</span>
+                        </div>
+                        <div class="lesson-item">
+                            <i class="fas fa-lock"></i>
+                            <span>3. Planting Techniques</span>
+                            <span class="lesson-duration">18 min</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Start Series</button>
+                </div>
+
+                <div class="series-card">
+                    <div class="series-header">
+                        <h3>Sustainable Farming Practices</h3>
+                        <span class="series-badge">6-Part Series</span>
+                    </div>
+                    <p>Learn eco-friendly farming methods that protect the environment while maintaining productivity.</p>
+                    <div class="series-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span>0/6 Complete</span>
+                    </div>
+                    <div class="series-lessons">
+                        <div class="lesson-item">
+                            <i class="fas fa-play-circle"></i>
+                            <span>1. Introduction to Sustainability</span>
+                            <span class="lesson-duration">10 min</span>
+                        </div>
+                        <div class="lesson-item">
+                            <i class="fas fa-lock"></i>
+                            <span>2. Water Conservation Methods</span>
+                            <span class="lesson-duration">20 min</span>
+                        </div>
+                        <div class="lesson-item">
+                            <i class="fas fa-lock"></i>
+                            <span>3. Natural Pest Control</span>
+                            <span class="lesson-duration">16 min</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Start Series</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="learning-path">
+        <div class="container">
+            <h2>Recommended Learning Path</h2>
+            <p class="section-subtitle">Follow our structured path to master modern farming</p>
+            
+            <div class="path-timeline">
+                <div class="path-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Foundation</h3>
+                        <p>Basic farming principles and soil science</p>
+                        <span class="step-duration">2-3 weeks</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Crop Selection</h3>
+                        <p>Choosing the right crops for your region</p>
+                        <span class="step-duration">1 week</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Planting & Growing</h3>
+                        <p>Practical planting and crop management</p>
+                        <span class="step-duration">3-4 weeks</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Technology Integration</h3>
+                        <p>Modern tools and digital solutions</p>
+                        <span class="step-duration">2 weeks</span>
+                    </div>
+                </div>
+                <div class="path-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Business & Marketing</h3>
+                        <p>Farm business management and sales</p>
+                        <span class="step-duration">2-3 weeks</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="path-cta">
+                <button class="btn btn-primary">Start Learning Path</button>
+                <button class="btn btn-secondary">Download PDF Guide</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>FarmConnect</span>
+                    </div>
+                    <p>Empowering farmers through technology, knowledge, and community connections.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About Us</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Tutorial Categories</h4>
+                    <ul>
+                        <li><a href="#beginner">Beginner Basics</a></li>
+                        <li><a href="#crops">Crop Management</a></li>
+                        <li><a href="#technology">Farm Technology</a></li>
+                        <li><a href="#sustainability">Sustainable Farming</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Get weekly farming tips and tutorial updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 FarmConnect. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="tutorials.js"></script>
+</body>
+</html>
